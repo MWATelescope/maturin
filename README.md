@@ -13,12 +13,18 @@ Currently this image is used by [mwalib](https://github.com/MWATelescope/mwalib)
 
 ## How to Build
 
+```bash
 docker build . -t mwatelescope/maturin:latest
+```
 
 ## How to Use
 
+```bash
 docker run -it --rm -v $(pwd)/../..:/io mwatelescope/maturin:latest
+```
 
 ## How to push to dockerhub
 
+```bash
 docker push mwatelescope/maturin:latest
+```
